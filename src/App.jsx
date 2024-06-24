@@ -26,7 +26,7 @@ function App() {
           minHeight: '100vh',
           display: 'flex',
         }}>
-        <BrowserRouter basename='/'>
+        <BrowserRouter basename='/aguaws'>
           <Sidebar toggleTheme={toggleTheme} />
           <Navbar setToggleTheme={setToggleTheme} toggleTheme={toggleTheme} />
         </BrowserRouter>
