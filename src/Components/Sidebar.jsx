@@ -13,7 +13,7 @@ export default function Sidebar({ toggleTheme }) {
             <div className={`flex item-end justify-between rounded-xl flex-col max-sm:w-[2rem] max-md:w-[4rem] lg:w-[6rem] max-sm:h-full max-md:h-full 
                 lg:h-[36rem] p-4 ${toggleTheme ? "bg-[#82e6ff7e]" : "bg-[#302e2e]"}`}>
 
-                <Link to='/aguaws'> <a ><img src={menu} width={50} alt="" /></a> </Link>
+                <Link to='/'> <a ><img src={menu} width={50} alt="" /></a> </Link>
                 <Link to="/notification">  <a ><img src={space_dashboard} width={50} alt="" /></a></Link>
                 <Link to="/orders"> <a ><img src={document} alt="" width={50} /></a></Link>
 

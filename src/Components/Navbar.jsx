@@ -44,7 +44,7 @@ export default function Navbar({ setToggleTheme, toggleTheme }) {
 
             <div className='m-2'>
                 <Routes>
-                    <Route path='/aguaws' element={<WelcomePage />} />
+                    <Route path='/' element={<WelcomePage />} />
                     <Route path='/notification' element={<Notification />} />
                     <Route path='/orders' toggleTheme={toggleTheme} element={<OrderHistory />} />
                 </Routes>
