@@ -111,7 +111,7 @@ export default function OrderHistory({ toggleTheme }) {
             <div className='bg-primary' style={{ width: "auto", height: "auto", border: "1px solid white", borderRadius: "10px", display: open ? 'block' : 'none', padding: "30px", position: "absolute", top: "50%", left: "30%", background: "#0f2642d3", boxShadow: "0px 0px 10px grey", color: "white" }}>
                 <div className='w-[26rem] h-[8rem]'>
                     <div className='flex justify-between'>
-                        <h4>{userdata.note}</h4>
+                        <h4> Order Id:{userdata.note}</h4>
                         <h1 onClick={() => { setOpen(!open) }} className='font-semibold text-3xl'>x</h1>
                     </div>
                     <hr />
