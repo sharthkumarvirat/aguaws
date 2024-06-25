@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom';
 export default function Sidebar({ toggleTheme }) {
     return (
         <div className='flex max-sm:items-start max-md:items-start lg:items-end'>
-            <div className={`flex item-end justify-between rounded-xl flex-col max-sm:w-[4rem] max-md:w-[4rem] lg:w-[6rem] 
+            <div className={`flex item-end justify-between rounded-xl flex-col max-sm:w-[4rem] max-md:w-[6rem] lg:w-[6rem] 
             max-sm:h-full max-md:h-full  lg:h-[36rem] p-4 ${toggleTheme ? "bg-[#82e6ff7e]" : "bg-[#302e2e]"}`}>
 
                 <Link to='/'> <a ><img src={menu} width={50} alt="" /></a> </Link>
