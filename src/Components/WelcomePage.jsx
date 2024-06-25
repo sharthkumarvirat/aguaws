@@ -28,7 +28,7 @@ export default function WelcomePage() {
             <div className='w-[85vw] text-4xl mb-6'>
                 <h3 className='font-bold text-2xl text-[#305bb0fd]'>Welcome!!</h3>
             </div>
-            <div className='flex gap-6 max-sm:flex-col max-md:flex-col lg:flex-row'>
+            <div className='flex gap-3 max-sm:flex-col max-md:flex-col lg:flex-row'>
                 <div className="left max-sm:w-full max-md:w-1/2 lg:w-1/2">
                     {/* carousel */}
                     <div className="mb-4">
